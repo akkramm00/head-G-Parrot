@@ -49,6 +49,7 @@ html{
     padding-bottom:2rem;
     font-size:4.5rem;
     text-align:center;
+    text-shadow: 0.6rem 0.6rem 0.6rem var(--main);
 }
 /*  Header/Navbar Start  */
 header{
@@ -297,8 +298,131 @@ font-size:2.2rem;
 }.swiper-pagination-bullet-active{
     background:var(--main);
 }
-
 /* Vehicules Section End*/
+
+/* Featured Section Start */
+.feature{
+    margin-bottom:200px;
+}
+.featureslider {
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+.featureslider .box {
+    padding: 2rem;
+    text-align:center;
+    border: var(--border);
+    border-radius: 0.5rem;
+    box-shadow:var(--box_shadow);
+}
+.feature img {
+    width:100%;
+    height: 15 rem ;
+}
+.feature .box:hover img{
+    transform: scale(1.08);
+}
+.feature .box .content h3{
+    font-size: 2.2rem;
+}
+.feature .box .content .stars{
+    padding: 1rem 0;
+}
+.feature .box .content .stars i{
+    color: var(--main);
+    font-size: 1.7rem;
+}
+.feature .price{
+    font-size: 2.5rem;
+} 
+/* Featured Section End */
+
+/* Service Section Start */
+.services{
+    margin-bottom: 200px;
+}
+.services .boxContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+.services .boxContainer .box {
+    box-shadow: var(--box_shadow);
+    border: var(--border);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+.services .boxContainer .box:hover{
+    background: #000;
+    color: #fff;
+}
+.services .boxContainer .box i {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    line-height: 6rem ;
+    background: var(--main);
+    color: #000 ;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.services .boxContainer .box h3{
+    font-size: 2.2rem;
+}
+.services .boxContainer .box .btn:hover{
+    background:#fff;
+    color:var(--main);
+}
+.services .boxContainer .box p{
+    line-height: 1.8rem;
+    padding: 1rem 0;
+    color: lightslategrey;
+    font-size: 1.4rem;
+}
+/* Service Section End */
+
+/* Review section Start */
+.review{
+    margin-bottom:100px;
+}
+.ReviewSlider{
+    padding-bottom: 3rem;
+}    
+.ReviewSlider .box{
+    padding: 2rem;
+    text-align: center;
+    opacity:0.5 ;
+    margin: 2rem 0;
+    transform: scale(0.8);
+}
+.ReviewSlider .swiper-slide-active {
+    opacity: 1;
+    box-shadow: var(--box_shadow);
+    border: var(--border);
+    border-radius: 0.5rem;
+}
+.ReviewSlider .box img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.ReviewSlider .box .content p {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.ReviewSlider .box .content h3{
+    font-size: 2.2rem;
+    padding-bottom: 0.5; 
+    
+}.ReviewSlider .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--main);
+
+}
+
+/* Review section End */
+
 
 
 
