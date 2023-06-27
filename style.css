@@ -483,6 +483,9 @@ footer a i{
     padding: 1rem;
     font-size: 2rem;
 }
+footer a:hover{
+    color: yellow;
+}
 /* Section Footer End */
 
 
